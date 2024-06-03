@@ -1,0 +1,16 @@
+/* CSS do pré-definições */
+@import url(./style.css);
+@import url(./responsivo.css);
+@font-face {
+  font-family: 'Chella';
+  src: url('../fonts/chella-bold.ttf');
+}
+
+/* Paleta de cores */
+:root {
+  --corPrimaria: #C6BAAA;
+  --corSecundaria: #806C61;
+  --corTercearia: #2C2C2C;
+  --corHover: #EF7828;
+  --fontPrincipal: 'Chella', Helvetica, sans-serif;
+}
