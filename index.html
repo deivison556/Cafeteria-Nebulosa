@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./src/css/global.css">
   <link rel="shortcut icon" href="./imagens/imagens do cabeçalho/01 - logo.png" type="image/x-icon">
   <title>Cafeteria Nebulosa</title>
 </head>
@@ -11,8 +11,8 @@
   <!-- Cabeçalho -->
   <header id="container-header">
     <div id="header-logo">
-      <img src="./imagens/imagens do cabeçalho/01 - logo.png" alt="logo da cafeteria nebulosa" class="header-logocafe">
-      <img src="./imagens/imagens do cabeçalho/02 - logonome.png" alt="logo nome da cafeteria nebulosa" class="header-logonome">
+      <img src="./src/imagens/imagens do cabeçalho/01 - logo.png" alt="logo da cafeteria nebulosa" class="header-logocafe">
+      <img src="./src/imagens/imagens do cabeçalho/02 - logonome.png" alt="logo nome da cafeteria nebulosa" class="header-logonome">
     </div>
     <nav id="header-navegacaolinks">
       <ul>
@@ -22,10 +22,40 @@
       </ul>
     </nav>
     <div id="header-icones">
-      <img src="./imagens/imagens do cabeçalho/03 - procurar.png" alt="lupa de procurar produto">
-      <img src="./imagens/imagens do cabeçalho/04 - carrinho-compra.png" alt="carrinho de compra de produtos">
-      <img src="./imagens/imagens do cabeçalho/05 - perfil.png" alt="login de usuario">
+      <img src="./src/imagens/imagens do cabeçalho/03 - procurar.png" alt="lupa de procurar produto">
+      <img src="./src/imagens/imagens do cabeçalho/04 - carrinho-compra.png" alt="carrinho de compra de produtos">
+      <img src="./src/imagens/imagens do cabeçalho/05 - perfil.png" alt="login de usuario">
     </div>
   </header>
+
+  <main>
+    <section class="image-carousel">
+      <a href="#" class="preview-arrow opacity">
+        <img src="./src/imagens/imagens do cabeçalho/07 - seta esquerda.png" alt="Seta voltar" class="arrow-img">
+      </a>
+
+      <div class="slide show">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/06 - background-principal.png" alt="Banner sobre o site da cafeteria">
+      </div>
+
+      <div class="slide">
+        <img class="slide-img"  src="./src/imagens/imagens do cabeçalho/cafe-1.jpg" alt="Foto de uma xícara de café sobre uma mesa">
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-2.jpg" alt="Foto de uma xícara de café sobre uma mesa">
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-3-resize.jpg" alt="Foto de uma xícara de café latte com uma arte latte">
+      </div>
+
+      <a href="#" class="next-arrow">
+        <img src="./src/imagens/imagens do cabeçalho/08 - seta direita.png" alt="Seta avançar" class="arrow-img">
+      </a>
+    </section>
+  </main>
 </body>
+
+<script src="./src/js/index.js"></script>
 </html>
