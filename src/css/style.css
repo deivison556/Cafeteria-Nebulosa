@@ -151,6 +151,38 @@ body {
   z-index: 99;
 }
 
+/* btn de compra cafes */
+.section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee {
+  position: relative;
+  top: 140px;
+  left: -20px;
+  width: 180px;
+  height: 60px;
+  text-align: left;
+  z-index: 100;
+}
+
+.section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee p, a {
+  font-size: 16px;
+  color: white;
+}
+
+.section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee a {
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+  padding: 5px;
+  color: var(--corPrimaria);
+  text-decoration: none;
+}
+
+.section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee a:hover {
+  color: white;
+  border: 1px solid var(--corSecundaria);
+  background-color: var(--corHover);
+  border-radius: 4px;
+}
+
 .section-coffee .section-boxs .section-img-coffee .image-container::after {
   content: '';
   position: absolute;
