@@ -58,6 +58,11 @@ body {
   color: var(--corTercearia);
 }
 
+#header-navegacaolinks ul li a:hover {
+  border-bottom: 2px solid var(--corHover);
+  color: var(--corPrimaria);
+}
+
 /* cabeçalho icones */
 #header-icones {
   display: flex;
