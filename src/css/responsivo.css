@@ -1,0 +1,12 @@
+@media(max-width: 850px) {
+    #container-header {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about .about-us {
+        display: flex;
+        flex-direction: column;
+    }
+}

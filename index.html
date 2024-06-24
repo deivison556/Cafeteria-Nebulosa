@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,21 @@
   <link rel="shortcut icon" href="./src/imagens/imagens do cabeçalho/01 - logo.png" type="image/x-icon">
   <title>Cafeteria Nebulosa</title>
 </head>
+
 <body>
   <!-- Cabeçalho -->
   <header id="container-header">
     <div id="header-logo">
-      <img src="./src/imagens/imagens do cabeçalho/01 - logo.png" alt="logo da cafeteria nebulosa" class="header-logocafe">
-      <img src="./src/imagens/imagens do cabeçalho/02 - logonome.png" alt="logo nome da cafeteria nebulosa" class="header-logonome">
+      <img src="./src/imagens/imagens do cabeçalho/01 - logo.png" alt="logo da cafeteria nebulosa"
+        class="header-logocafe">
+      <img src="./src/imagens/imagens do cabeçalho/02 - logonome.png" alt="logo nome da cafeteria nebulosa"
+        class="header-logonome">
     </div>
     <nav id="header-navegacaolinks">
       <ul>
-        <li><a href="">Loja</a></li>
-        <li><a href="">inicio</a></li>
-        <li><a href="">sobre</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#catalogo">Loja</a></li>
       </ul>
     </nav>
     <div id="header-icones">
@@ -35,114 +39,145 @@
       </a>
 
       <div class="slide show">
-        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/06 - background-principal.png" alt="Banner sobre o site da cafeteria">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/06 - background-principal.png"
+          alt="Banner sobre o site da cafeteria">
       </div>
 
       <div class="slide">
-        <img class="slide-img"  src="./src/imagens/imagens do cabeçalho/cafe-1.jpg" alt="Foto de uma xícara de café sobre uma mesa">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-1.jpg"
+          alt="Foto de uma xícara de café sobre uma mesa">
       </div>
 
       <div class="slide">
-        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-2.jpg" alt="Foto de uma xícara de café sobre uma mesa">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-2.jpg"
+          alt="Foto de uma xícara de café sobre uma mesa">
       </div>
 
       <div class="slide">
-        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-3-resize.jpg" alt="Foto de uma xícara de café latte com uma arte latte">
+        <img class="slide-img" src="./src/imagens/imagens do cabeçalho/cafe-3.png"
+          alt="Foto de uma xícara de café latte com uma arte latte">
       </div>
 
       <a href="#" class="next-arrow">
         <img src="./src/imagens/imagens do cabeçalho/08 - seta direita.png" alt="Seta avançar" class="arrow-img">
       </a>
     </section>
+
+    <section class="about" id="about">
+      <h2>Sobre Nós</h2>
+
+      <div class="about-us">
+        <p class="description">
+          Bem-vindo à Cafeteria Nebulosa, onde a paixão pelo café encontra a vastidão do cosmos! Inspirada pelo fascínio
+          do espaço sideral, nossa cafeteria temática proporciona uma experiência única, combinando sabores excepcionais
+          com uma atmosfera estelar.
+        </p>
+        <img src="./src/imagens/imagens do cabeçalho/cafeteria.jpeg" alt="Foto interna da cafeteria"
+          class="about-img border-right">
+
+        <img src="./src/imagens/imagens do cabeçalho/maquina-cafe.jpg" alt="Café produzido na máquina"
+          class="about-img border-left">
+        <p class="description">
+          Cada xícara de café na Cafeteria Nebulosa é cuidadosamente preparada para transportar você a uma jornada
+          intergaláctica. Utilizamos apenas os melhores grãos de café, selecionados de fazendas sustentáveis ao redor do
+          mundo, para garantir uma experiência inesquecível a cada gole.
+        </p>
+      </div>
+    </section>
   </main>
-  
-  <!-- sessão xicara de cafés -->
-  <section class="section-coffee">
-    <div class="section-boxs">
-      <div class="section-img-coffee">
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de xicara de cafes/01 - coffee.png" alt="">
-          <div class="box-buycoffee">
-            <p>Nebulosa Carina</p>
-            <a href="">Comprar</a>
-          </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de xicara de cafes/02 - coffee.png" alt="">
-          <div class="box-buycoffee">
-            <p>Nebulosa Órion</p>
-            <a href="">Comprar</a>
-          </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de xicara de cafes/03 - coffee.png" alt="">
-          <div class="box-buycoffee">
-            <p>Nebulosa Andrómeda</p>
-            <a href="">Comprar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- sessão pó de cafés -->
-  <section class="section-coffee">
-    <div class="section-boxs">
-      <div class="section-img-coffee">
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão pó de café/01 - po de cafe brown.png" alt="">
-          <div class="box-buycoffee">
-            <p>Nebulosa do Cruzeiro</p>
-            <a href="">Comprar</a>
+  <div class="catalogo" id="catalogo">
+    <!-- sessão xicara de cafés -->
+    <section class="section-coffee">
+      <div class="section-boxs">
+        <div class="section-img-coffee">
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de xicara de cafes/01 - coffee.png" alt="">
+            <div class="box-buycoffee">
+              <p>Nebulosa Carina</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão pó de café/02 - po de cafe black.png" alt="">
-          <div class="box-buycoffee">
-            <p> Nebulosa Espiral</p>
-            <a href="">Comprar</a>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de xicara de cafes/02 - coffee.png" alt="">
+            <div class="box-buycoffee">
+              <p>Nebulosa Órion</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão pó de café/03 - po de cafe white.png" alt="">
-          <div class="box-buycoffee">
-            <p>Nebulosa Galáctica</p>
-            <a href="">Comprar</a>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de xicara de cafes/03 - coffee.png" alt="">
+            <div class="box-buycoffee">
+              <p>Nebulosa Andrómeda</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- sessão café expresso -->
-  <section class="section-coffee">
-    <div class="section-boxs">
-      <div class="section-img-coffee">
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de café expresso/01 - cafe expresso black.png" alt="">
-          <div class="box-buycoffee">
-            <p>Expre Nebu Negra</p>
-            <a href="">Comprar</a>
+    <!-- sessão pó de cafés -->
+    <section class="section-coffee">
+      <div class="section-boxs">
+        <div class="section-img-coffee">
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão pó de café/01 - po de cafe brown.png" alt="">
+            <div class="box-buycoffee">
+              <p>Nebulosa do Cruzeiro</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de café expresso/02 - cafe expresso brown.png" alt="">
-          <div class="box-buycoffee">
-            <p>Expre Nebu Celestial</p>
-            <a href="">Comprar</a>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão pó de café/02 - po de cafe black.png" alt="">
+            <div class="box-buycoffee">
+              <p> Nebulosa Espiral</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
-        </div>
-        <div class="image-container">
-          <img src="./src/imagens/imagens da sessão de café expresso/03 - cafe expresso rose.png" alt="">
-          <div class="box-buycoffee">
-            <p>Expre Nebu Cósmica</p>
-            <a href="">Comprar</a>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão pó de café/03 - po de cafe white.png" alt="">
+            <div class="box-buycoffee">
+              <p>Nebulosa Galáctica</p>
+              <a href="">Comprar</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- sessão café expresso -->
+    <section class="section-coffee">
+      <div class="section-boxs">
+        <div class="section-img-coffee">
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de café expresso/01 - cafe expresso black.png" alt="">
+            <div class="box-buycoffee">
+              <p>Expre Nebu Negra</p>
+              <a href="">Comprar</a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de café expresso/02 - cafe expresso brown.png" alt="">
+            <div class="box-buycoffee">
+              <p>Expre Nebu Celestial</p>
+              <a href="">Comprar</a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="./src/imagens/imagens da sessão de café expresso/03 - cafe expresso rose.png" alt="">
+            <div class="box-buycoffee">
+              <p>Expre Nebu Cósmica</p>
+              <a href="">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 
+
+
 <script src="./src/js/index.js"></script>
+
 </html>

@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: var(--fontPrincipal);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,10 +16,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 110px;
-  width: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 20px 50px;
+  gap: 20px;
 }
 
 /* logo do cabeçalho */
@@ -56,6 +55,7 @@ body {
   font-size: 28px;
   text-decoration: none;
   color: var(--corTercearia);
+  transition: .3s ease-in-out;
 }
 
 #header-navegacaolinks ul li a:hover {
@@ -67,8 +67,8 @@ body {
 #header-icones {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 250px;
+  gap: 50px;
+  cursor: pointer;
 }
 
 /* carrossel de imagens */
@@ -120,11 +120,59 @@ body {
   opacity: 0.6;
 }
 
+/* Sobre nós */
+.about {
+  background-color: #2C2C2C;
+  color: white;
+  padding: 50px 20px;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  gap: 30px 20px;
+}
+
+.about-us .description {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .about-img {
+  max-width: 100%;
+  border-radius: 5px;
+  /* box-shadow: 10px 12px 2px 3px rgba(90, 89, 89, 0.973); */
+  transition: .3s ease-in-out;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.about-us .about-img.border-right {
+  box-shadow: 10px 12px 2px 3px rgba(90, 89, 89, 0.973);
+}
+
+.about-us .about-img.border-left {
+  box-shadow: -10px 12px 2px 3px rgba(90, 89, 89, 0.973);
+}
+
 /* sessão de xicara de cafés */
 .section-coffee {
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
-  padding-top: 200px;
+  /* padding-top: 200px; */
+  height: 85vh;
+  margin: 50px 0;
 }
 
 .section-coffee .section-boxs {
@@ -133,7 +181,7 @@ body {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .section-coffee .section-boxs .section-img-coffee {
@@ -153,39 +201,47 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 99;
+  z-index: 1;
+  transition: .3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 /* btn de compra cafes */
 .section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee {
   position: relative;
-  top: 140px;
-  left: -20px;
-  width: 180px;
-  height: 60px;
-  text-align: left;
-  z-index: 100;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
 }
 
 .section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee p, a {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 
 .section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee a {
-  position: relative;
-  top: 10px;
+  margin-top: 10px;
   font-size: 14px;
   padding: 5px;
   color: var(--corPrimaria);
+  background-color: var(--corSecundaria);
+  border-radius: 5px;
+  width: 100%;
   text-decoration: none;
+  transition: .3s ease-in-out;
 }
 
 .section-coffee .section-boxs .section-img-coffee .image-container .box-buycoffee a:hover {
   color: white;
-  border: 1px solid var(--corSecundaria);
   background-color: var(--corHover);
-  border-radius: 4px;
 }
 
 .section-coffee .section-boxs .section-img-coffee .image-container::after {

@@ -1,9 +1,24 @@
 /* CSS do pré-definições */
-@import url(./style.css);
+/* @import url(./style.css); */
 @import url(./responsivo.css);
+@import url(./header.css);
+@import url(./about.css);
+@import url(./catalogo.css);
 @font-face {
   font-family: 'Chella';
   src: url('../fonts/chella-bold.ttf');
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--fontPrincipal);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--corPrimaria);
 }
 
 /* Paleta de cores */
