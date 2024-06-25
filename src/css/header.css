@@ -34,7 +34,7 @@
   #header-navegacaolinks ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     text-decoration: none;
   }

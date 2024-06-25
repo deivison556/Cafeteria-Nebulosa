@@ -9,4 +9,70 @@
         display: flex;
         flex-direction: column;
     }
+
+    .catalogo h2 {
+        margin-bottom: 40px;
+    }
+
+    .section-boxs {
+        height: auto !important;
+        padding: 20px 0 !important;
+        margin: 0px 0 !important;
+    }
+
+    .section-img-coffee {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px !important;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .form .form-inputs {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+@media(max-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+}
+
+@media(max-width: 450px) {
+    #container-header #header-logo .header-logocafe {
+        height: 40px !important;
+        width: 50px !important;
+    }
+
+    #header-navegacaolinks ul li a {
+        font-size: 20px !important;
+        
+    }
+
+    #header-icones img {
+        width: 35px;
+    }
+
+    .form .form-inputs {
+        width: 300px;
+    }
+
+    .preview-arrow img, .next-arrow img {
+        width: 40px;
+    }
+}
+
+@media(max-width: 350px) {
+    #header-navegacaolinks ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
